@@ -1,0 +1,225 @@
+body {
+    background-color: #E8DDCA;
+    margin: 0;
+    padding: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Kotak {
+    background-color: white;
+    width: 900px;
+    margin: 0px auto;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+.Logo {
+    float: left;
+    padding: 10px 0;
+}
+
+.Logo img {
+    display: block;
+    border: none;
+}
+
+.icon {
+    float: right;
+    padding: 10px 0;
+}
+
+.icon a {
+    text-decoration: none;
+    margin-left: 8px;
+    display: inline-block;
+}
+
+.icon img {
+    vertical-align: middle;
+    border: none;
+    transition: transform 0.2s ease;
+}
+
+.icon img:hover {
+    transform: scale(1.15);
+}
+
+.Navigation {
+    clear: both;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    padding: 12px 0;
+}
+
+.Navigation a {
+    color: black;
+    margin-right: 25px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Navigation a:hover {
+    color: darkorange;
+}
+
+.Banner {
+    margin: 15px 0;
+    clear: both;
+}
+
+.Banner img {
+    width: 900px;
+    height: 300px;
+    display: block;
+    border: none;
+}
+
+.Title {
+    color: #BB5E00;
+    border-bottom: solid 1px black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.Title h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.LeftContent {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 680px;
+    float: left;
+}
+
+.LeftContent p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 0 0 15px 0;
+    word-break: break-word;
+}
+
+.LeftContent img {
+    border: solid black 1px;
+    margin: 10px 10px 10px 0px;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.RightContent {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 190px;
+    float: right;
+}
+
+.RightContent h2 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    border-bottom: 1px dotted #BB5E00;
+    padding-bottom: 4px;
+}
+
+.RightContent h4 {
+    color: #BB5E00;
+    font-size: 12px;
+    margin: 10px 0 2px 0;
+}
+
+.RightContent h3 {
+    font-size: 14px;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+
+.RightContent p {
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 0 0 12px 0;
+    word-break: break-word;
+}
+
+/* Three boxes layout for living room / products page */
+.Box {
+    background-color: aliceblue;
+    border-top: solid 20px #6F0001;
+    width: 270px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    margin: 15px 15px 15px 0;
+    box-sizing: border-box;
+}
+
+.BoxBox {
+    background-color: aliceblue;
+    border-top: solid 20px #747000;
+    width: 270px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.BoxBoxBox {
+    background-color: aliceblue;
+    border-top: solid 20px #1E3C00;
+    width: 270px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    margin: 15px 0 15px 15px;
+    box-sizing: border-box;
+}
+
+.Box h3, .BoxBox h3, .BoxBoxBox h3 {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.Box p, .BoxBox p, .BoxBoxBox p {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.Box img, .BoxBox img, .BoxBoxBox img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.Box a, .BoxBox a, .BoxBoxBox a {
+    color: #BB5E00;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.Box a:hover, .BoxBox a:hover, .BoxBoxBox a:hover {
+    text-decoration: underline;
+    color: darkorange;
+}
+
+.clear {
+    clear: both;
+}
+
+.Footer {
+    clear: both;
+    border-top: solid 1px black;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}

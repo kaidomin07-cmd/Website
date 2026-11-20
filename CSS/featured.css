@@ -1,0 +1,150 @@
+/* Timothy Framework - www.timothyframework.com */
+/* This work is licensed under the MIT License - http://www.opensource.org/licenses/mit-license.php */
+
+#feature {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.6;
+	width: 780px; /* Width of feature box */
+	margin: 25px auto; /* Centering inside Kotak */
+	padding: 20px; /* Padding inside */
+	background: #FFF; /* Background color */
+	border: 1px solid #CCC; /* Border around */
+	box-sizing: border-box;
+}
+
+#feature h1 {
+	margin: 0 0 10px 0;
+	font-size: 20px;
+	color: #000;
+}
+
+#feature p {
+	margin: 0 0 15px 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.clear {
+	clear: both;
+	line-height: 1px;
+	font-size: 1px;
+}
+
+#feature a {
+	outline: none;
+}
+
+#feature h3 {
+	margin: 0;
+	padding: 4px 0 0 0;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+div#feature_list {
+	width: 740px;
+	height: 240px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+		
+div#feature_list ul {
+	position: absolute;
+	top: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul#tabs {
+	left: 0;
+	top: 0;
+	z-index: 2;
+	width: 310px;
+}
+
+ul#tabs li {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	list-style: none;
+}
+
+ul#tabs li img {
+	padding: 5px;
+	border: none;
+	margin: 5px 10px 0 0;
+	float: left;
+}
+
+ul#tabs li a {
+	color: #222;
+	text-decoration: none;
+	display: block;
+	padding: 10px 15px;
+	height: 60px;
+	outline: none;
+}
+
+ul#tabs li a:hover {
+	color: #822B00;
+}
+
+ul#tabs li a.current {
+	background: url(../images/feature-tab-current.png) no-repeat right center;
+	color: #FFF;
+}
+
+ul#tabs li a.current:hover {
+	text-decoration: none;
+	cursor: default;
+}
+
+ul#tabs li span {
+	font-size: 11px;
+	display: block;
+	margin-top: 3px;
+}
+
+ul#output {
+	right: 0;
+	top: 0;
+	width: 440px;
+	height: 240px;
+	position: absolute;
+}
+
+ul#output li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 440px;
+	height: 240px;
+	list-style: none;
+}
+
+ul#output li img {
+	width: 440px;
+	height: 240px;
+	display: block;
+	border: none;
+}
+
+ul#output li a {
+	position: absolute;
+	bottom: 12px;
+	right: 12px;
+	padding: 6px 14px;
+	text-decoration: none;
+	font-size: 11px;
+	color: #FFF;
+	background: #000;
+	border-radius: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul#output li a:hover {
+	background: #B33A00;
+}
